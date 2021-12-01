@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100%;
+    width: 100%; 
+    overflow-x: hidden;
+    user-select: none;
+}
+.doc
+{
+  /* text-align: justify;   */
+  /* margin-left: 85px;
+  margin-right: 85px; */
+  font-size: 200%;
+  background-color: antiquewhite;
+}
+.heading
+{
+    font-size: 400%;
+    background-color: aquamarine;
+}
+.imgg
+{
+    width: 532.60274px;
+    height: 270 px;
+    border-radius: 15px;
+    position: absolute;
+    display: block;
+    z-index: 2;
+    right: 0;
+}
+.row
+{
+    /* background-image: url(/images/interior.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.bgimage
+{
+ display: block;
+ width: 100%;
+ position: absolute;
+}
